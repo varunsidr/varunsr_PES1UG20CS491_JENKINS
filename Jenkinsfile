@@ -10,11 +10,11 @@ pipeline{
   }
   stage('Test'){
     steps{
-      sh './PES1UG20CS491'
+      sh './PES1UG20CS490'
       echo 'Test Success'
      }
     }
-    stage('eploy'){
+    stage('Deploy'){
     steps{
     echo 'Deployment Success'
     }
